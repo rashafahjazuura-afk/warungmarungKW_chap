@@ -1,0 +1,303 @@
+html{
+    scroll-behavior: smooth;
+}
+#home, #menu, #footer{
+    scroll-margin-top: 90px;
+}
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Arial';
+}
+.wrapper{
+    width: 1001px;
+    margin: auto;
+    position: relative;
+}
+.logo a{
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: #f8f6f5;
+    float: left;
+}
+.menu{
+    float: right;
+}
+nav{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: rgb(5, 5, 0);
+    z-index: 1;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+nav ul li{
+    float: left;
+}
+nav ul li a{
+    color: rgb(244, 242, 242);
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 16px 0px 16px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+a.order{
+    background: #f0960e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+section{
+    margin: 0px;
+    display: flex;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.kolom{
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 0px;
+    color: #121212;
+}
+.kolom .deskripsi{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #0b0700;
+    line-height: 25px;
+    justify-content: first baseline;
+}
+p{
+    font-family: 'comic ms sans';
+    color: #0f0900;
+    line-height: 20px;
+}
+h2{
+    font-family: 'comic sans ms';
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 30px;
+    color: #f8cc8a;
+    width: 100%;
+    line-height: 60px;
+}
+.gambar{
+    margin-top: 50px;
+    width: 480px;
+    height: auto;
+    float: right;
+    border-radius: 24px;
+    object-fit: cover;
+    box-shadow: 0 10px 20px rgba(246, 182, 44, 0.7);
+    transition: transform 0.3s ease;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    transform: translateY(-4px);
+    gap: 40px;
+}
+a.reservasi{
+    background: #f0960e;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding:10px 15px 10px 15px;
+    color: aliceblue;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.garis-abu{
+    width: 100%;
+    height: 1px;
+    background: #e0e0e0;
+    margin: 60px 0px 0px 0px;
+    clear: both;
+}
+
+#menu{
+    background: #ffffff;
+    padding: 50px 0px;
+    display: block;
+}
+.menu-title h2{
+    text-align: center;
+    color: #e58a2f;
+    font-family: 'Times New Roman', serif;
+    font-size: 32px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    width: 100%;
+}
+.menu-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.menu-card{
+    width: 280px;
+    background: #fde2b3;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+.menu-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(246, 182, 44, 0.4);
+}
+.menu-card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.menu-card h3{
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 15px 0px 8px 0px;
+    color: #000;
+}
+.menu-card p{
+    font-family: 'Times New Roman', serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #333;
+    text-align: center;
+}
+
+footer{
+    background: #1a1a1a;
+    color: white;
+    margin-top: 50px;
+    padding-top: 40px;
+}
+.footer-wrapper{
+    width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-col{
+    width: 30%;
+}
+.footer-col h4{
+    font-family: Verdana, sans-serif;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+.footer-col p{
+    font-family: Verdana, sans-serif;
+    font-size: 11px;
+    line-height: 18px;
+    color: #ccc;
+}
+.footer-col.center{
+    text-align: center;
+}
+.sosmed img{
+    width: 20px;
+    margin: 10px 5px;
+}
+.copyright{
+    text-align: center;
+    padding: 20px 0px;
+    margin-top: 20px;
+    border-top: 1px solid #fbfbfb;
+    font-size: 12px;
+}
+.copyright p{
+    color: white
+}
+
+
+
+
+.form-pesan-page{
+    width: 500px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+.form-pesan-page h2{
+    text-align: center;
+    font-size: 26px;
+    margin-bottom: 5px;
+}
+.form-pesan-page p{
+    text-align: center;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.form-pesan-page label{
+    font-size: 13px;
+    font-weight: bold;
+    display: block;
+    margin-top: 15px;
+    text-align: left;
+}
+.form-pesan-page input, .form-pesan-page select, .form-pesan-page textarea{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+}
+
+.action-buttons{
+    margin-top: 20px;
+}
+
+.btn-wa{
+    width: 100%;
+    background: #f0960e;
+    color: #FFFFFF !important;
+    border: none;
+    padding: 13px 20px;
+    border-radius: 25px;
+    font-weight: 800;
+    font-size: 15px;
+    cursor: pointer;
+    display: block;
+    text-align: center;
+}
+
+.btn-wa:hover{
+    background: #d67f00;
+}
+
+.btn-batal{
+    display: block;
+    text-align: center;
+    margin-top: 12px;
+    color: #666;
+    font-size: 13px;
+}

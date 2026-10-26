@@ -1,0 +1,48 @@
+<html>
+<head>
+    <title>Pesan_JS</title>
+    <link rel="stylesheet" href="style_index.css">
+</head>
+<body>
+    <nav>
+        <div class="wrapper">
+            <div class="logo"><a href="index.html">JagatSaji</a></div>
+            <div class="menu">
+                <ul>
+                    <li><a href="index.html">Beranda</a></li>
+                    <li><a href="index.html">Menu</a></li>
+                    <li><a href="pesan.html" class="order">Pesan Disini</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="form-pesan-page">
+            <h2>Form Pemesanan JagatSaji</h2>
+            <p>Isi form di bawah untuk pesan menu pilihanmu ^____^</p>
+            <form id="formPesanHalaman">
+                <label>Nama Lengkap</label>
+                <input type="text" id="nama" placeholder="Masukkan nama kamu" required>
+                <label>Pilih Menu</label>
+                <select id="menu" required>
+                    <option value="">-- Pilih Menu --</option>
+                    <option>Nasi Kuning</option>
+                    <option>Gado-gado</option>
+                    <option>Nasi Uduk</option>
+                    <option>Nasi Daun Jeruk</option>
+                    <option>Nasi Pecel</option>
+                    <option>Rujak Cingur</option>
+                </select>
+                <label>Jumlah Pesanan</label>
+                <input type="number" id="jumlah" min="1" value="1" required>
+                <label>No Meja</label>
+                <textarea id="alamat" placeholder="tulis no meja kamu, dan tunggu sajian sampai di meja kamu..." required></textarea>
+                <div class="action-buttons">
+                    <a href="https://wa.me/628999263117?text=Halo, Jagat Saji! ... saya mau pesan ^^" target="_blank" class="btn-wa">Pesan via WhatsApp!</a>
+                </div>
+                <a href="index.html" class="btn-batal">Kembali ke Beranda</a>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
